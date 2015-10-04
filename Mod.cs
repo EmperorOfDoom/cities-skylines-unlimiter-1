@@ -29,7 +29,7 @@ namespace EightyOne
         {
             get
             {
-                return "81 Tile Unlock";
+                return "81 Tile Unlock - Trying to fix v1";
             }
         }
     }
@@ -82,12 +82,12 @@ namespace EightyOne
                 {
                     typeof(GameAreaManager), typeof(FakeGameAreaManager),
                     typeof(GameAreaInfoPanel), typeof(FakeGameAreaInfoPanel),
-                    typeof(GameAreaTool), typeof(FakeGameAreaTool),
+                    //typeof(GameAreaTool), typeof(FakeGameAreaTool),
 
                     typeof(NetManager), typeof(FakeNetManager),
                     typeof(ZoneManager), typeof(FakeZoneManager),
                     typeof(BuildingTool ), typeof(FakeBuildingTool),
-                    typeof(Building ), typeof(FakeBuilding),
+                    //typeof(Building ), typeof(FakeBuilding),
 
                     typeof(ZoneTool), typeof(FakeZoneTool),
                     //typeof(PrivateBuildingAI), typeof(FakePrivateBuildingAI),

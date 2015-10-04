@@ -752,7 +752,7 @@ namespace EightyOne.Zones
                 {
                     ZoneBlock.GetIndustryType(vector6, out subService, out level);
                 }
-                buildingInfo = Singleton<BuildingManager>.instance.GetRandomBuildingInfo(ref Singleton<SimulationManager>.instance.m_randomizer, service, subService, level, num27, num26, zoningMode3);
+                buildingInfo = Singleton<BuildingManager>.instance.GetRandomBuildingInfo(ref Singleton<SimulationManager>.instance.m_randomizer, service, subService, level, num27, num26, zoningMode3, 0);
                 if (buildingInfo != null)
                 {
                     break;
